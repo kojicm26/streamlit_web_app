@@ -1,2 +1,7 @@
+streamlit==1.22
+git+https://github.com/streamlit/gsheets-connection
+
+
 Pillow==9.4.0
-pandas==2.0.3
+
+pandas==1.5.3
