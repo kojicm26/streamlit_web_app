@@ -12,7 +12,8 @@ with st.form(key='profile_form'):
         # name = st.text_input('名前')
 
         url = st.text_input('Googleスプレッドシート（Gドライブのurl）')
-        conn = st.connection("gsheets", type=GSheetsConnection)
+        # conn = st.connection("gsheets", type=GSheetsConnection)
+        conn = st.experimental_connection("gsheets", type=GSheetsConnection)
 
         # address = st.text_input('住所')
         csv = st.text_area('CSVデータなど')
